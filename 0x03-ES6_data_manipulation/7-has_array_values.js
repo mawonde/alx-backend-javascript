@@ -1,3 +1,3 @@
-function hasValuesFromArray(set, array) {
-   return array.every(element => set.has(element));
-}
+const hasValuesFromArray = (set, array) => array.every((value) => set.has(value));
+
+export default hasValuesFromArray;

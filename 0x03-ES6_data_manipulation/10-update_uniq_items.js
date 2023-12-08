@@ -11,3 +11,5 @@ function updateUniqueItems(groceryMap) {
 
   return groceryMap;
 }
+
+export default updateUniqueItems;
